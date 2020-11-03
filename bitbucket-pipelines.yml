@@ -1,0 +1,12 @@
+image: php:7.1.29
+
+pipelines:
+ branches:
+   master:
+     - step:
+         name: Deploy to production
+         deployment: production
+         script:
+           - apt-get update
+           - apt-get -qq install git-ftp
+           - git ftp init --user $FTP_username --passwd $FTP_password ftp://christianspina.com
