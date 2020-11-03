@@ -9,4 +9,4 @@ pipelines:
          script:
            - apt-get update
            - apt-get -qq install git-ftp
-           - git ftp init --user $FTP_username --passwd $FTP_password ftp://christianspina.com
+           - git ftp init --user $FTP_username --passwd $FTP_password ftp://185.224.138.94
