@@ -1,0 +1,98 @@
+.pt-admin-accordion {
+	background: #fff;
+}
+
+.pt-admin-accordion:not(:last-of-type) {
+	margin-bottom: 15px;
+}
+
+.pt-admin-accordion .top {
+	border: 1px solid #e5e5e5;
+	position: relative;
+	overflow:  hidden;
+	cursor:  pointer;
+}
+
+.pt-admin-accordion .top .label {
+	font-weight: 600;
+	font-size: 14px;
+	padding: 5px 65px 5px 10px;
+}
+
+.pt-admin-accordion .top .add {
+	color: #17a205;
+	position: absolute;
+	top: 50%;
+	right: 5px;
+	margin-top: -0.95em;
+	cursor: pointer;
+	z-index: 2;
+	line-height: 2em;
+	width: 2em;
+	text-align: center;
+}
+
+.pt-admin-accordion .top .remove {
+	color: #e00c0c;
+	position: absolute;
+	top: 50%;
+	right: 26px;
+	margin-top: -0.95em;
+	cursor: pointer;
+	z-index: 2;
+	line-height: 2em;
+	width: 2em;
+	text-align: center;
+}
+
+.pt-admin-accordion .wrap {
+	margin: 0;
+	padding: 10px 10px;
+	border: 1px solid #e5e5e5;
+	border-top: 0;
+}
+
+.pt-admin-accordion .input-row,
+.input-inline-row {
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.pt-admin-accordion .input-row:last-of-type,
+.input-inline-row:last-of-type {
+	margin-bottom: 0;
+}
+
+.pt-admin-accordion .input-row.upload {
+	padding-right: 130px;
+}
+
+.pt-admin-accordion .input-row label {
+	float: left;
+	margin: 5px 0;
+}
+
+.input-inline-row label {
+	margin: 0 0 5px;
+	display: block;
+}
+
+.pt-admin-accordion .input-row .input {
+	margin-left: 95px;
+}
+
+.pt-admin-accordion .input-row input[type="text"],
+.pt-admin-accordion .input-row input[type="url"],
+.input-inline-row input,
+.input-inline-row textarea {
+	width: 100%;
+}
+
+.pt-admin-accordion .input-row .upload-input {
+}
+
+.pt-admin-accordion .input-row .button {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
